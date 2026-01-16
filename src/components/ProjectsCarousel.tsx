@@ -55,14 +55,7 @@ const ProjectsCarousel = () => {
     const ref = useRef(null)
     const isInView = useInView(ref, { once: true, margin: "-100px" })
     const [currentIndex, setCurrentIndex] = useState(0)
-    const [width, setWidth] = useState(0)
     const carouselRef = useRef<HTMLDivElement>(null)
-
-    useEffect(() => {
-        if (carouselRef.current) {
-            setWidth(carouselRef.current.scrollWidth - carouselRef.current.offsetWidth)
-        }
-    }, [])
 
     // Calculate maximum index to allow scrolling until the last card is fully visible
     const maxIndex = projects.length - 1
