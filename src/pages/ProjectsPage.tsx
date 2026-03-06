@@ -8,7 +8,8 @@ const categories = [
     'AI Services',
     'Website Development',
     'Web Design',
-    'Social Media Services'
+    'Social Media Services',
+    'Branding'
 ] as const
 
 type Category = typeof categories[number]

@@ -1,16 +1,44 @@
+export interface GalleryItem {
+    type: 'image' | 'video';
+    url: string;
+    thumbnail?: string;
+}
+
 export interface Project {
     id: number;
     title: string;
     description: string;
-    category: 'AI Services' | 'Website Development' | 'Web Design' | 'Social Media Services';
+    category: 'AI Services' | 'Website Development' | 'Web Design' | 'Social Media Services' | 'Branding';
     year: string;
     image: string;
+    video?: string;
     bgColor: string;
     textColor: string;
     tags: string[];
+    gallery?: GalleryItem[];
 }
 
 export const projects: Project[] = [
+    {
+        id: 9,
+        title: 'Social Media Branding Evolution',
+        year: '2025',
+        category: 'Social Media Services',
+        description: 'A premium visual identity overhaul for a high-end social media presence. This project combines cinematic motion pieces with sophisticated product curation to establish a dominant brand authority in the digital space.',
+        image: '/images/productbrandingimages (1).jpg',
+        video: '/images/productbrandingimages (1).mp4',
+        bgColor: 'bg-[#121212]',
+        textColor: 'text-white',
+        tags: ['Motion Design', 'Branding', 'Social Strategy'],
+        gallery: [
+            { type: 'video', url: '/images/productbrandingimages (1).mp4' },
+            { type: 'image', url: '/images/productbrandingimages (1).jpeg' },
+            { type: 'image', url: '/images/productbrandingimages (1).jpg' },
+            { type: 'image', url: '/images/productbrandingimages (2).jpg' },
+            { type: 'image', url: '/images/productbrandingimages (3).jpg' },
+            { type: 'image', url: '/images/productbrandingimages (4).jpg' },
+        ]
+    },
     {
         id: 1,
         title: 'Logistic & Supply Chain Platform',
@@ -66,17 +94,7 @@ export const projects: Project[] = [
         textColor: 'text-white',
         tags: ['Photography', 'Marketing', 'Ecommerce'],
     },
-    {
-        id: 6,
-        title: 'Custom AI Automation for Real Estate',
-        year: '2024',
-        category: 'AI Services',
-        description: 'End-to-end automation for lead generation and nurturing. Uses AI agents to qualify leads and schedule viewings automatically.',
-        image: 'https://i.pinimg.com/736x/53/52/e4/5352e48223e661f6932cf08d61de5327.jpg',
-        bgColor: 'bg-[#1A1A1A]',
-        textColor: 'text-white',
-        tags: ['AI Agents', 'Automation', 'CRM'],
-    },
+
     {
         id: 7,
         title: 'Minimalist Portfolio for Architects',
@@ -90,13 +108,73 @@ export const projects: Project[] = [
     },
     {
         id: 8,
-        title: 'Tech Conference Landing Page',
+        title: 'Spa & Wellness Website',
         year: '2025',
         category: 'Website Development',
-        description: 'High-traffic landing page for an international tech summit. Features real-time schedule updates and complex ticket booking flow.',
-        image: 'https://i.pinimg.com/1200x/1c/a1/3e/1ca13e8d51cb0f1e3e3bd11fbdc9d842.jpg',
-        bgColor: 'bg-[#6B46C1]',
-        textColor: 'text-white',
-        tags: ['Event Tech', 'Next.js', 'Scaling'],
+        description: 'A luxurious and serene digital experience designed for a premium spa. It features an immersive layout, integrated booking flow, and a calming visual identity.',
+        image: '/images/spawebsitedev (1).png',
+        bgColor: 'bg-[#FDFBF9]',
+        textColor: 'text-[#2D2D2D]',
+        tags: ['UI/UX', 'Wellness', 'Booking'],
+        gallery: [
+            { type: 'image', url: '/images/spawebsitedev (1).png' },
+            { type: 'image', url: '/images/spawebsitedev (1).jpeg' },
+            { type: 'image', url: '/images/spawebsitedev (2).png' },
+            { type: 'image', url: '/images/spawebsitedev (2).jpeg' },
+        ]
     },
+
+    {
+        id: 10,
+        title: 'Sweets Branding & Visual Identity',
+        year: '2026',
+        category: 'Branding',
+        description: 'A vibrant and cohesive brand identity designed for a modern sweets and confectionery brand. This project brings together playful aesthetics with premium packaging design.',
+        image: '/images/sweetsbrandingimages (1).png',
+        bgColor: 'bg-[#FF9B9B]',
+        textColor: 'text-white',
+        tags: ['Branding', 'Visual Identity', 'Packaging'],
+        gallery: [
+            { type: 'image', url: '/images/sweetsbrandingimages (1).png' },
+            { type: 'image', url: '/images/sweetsbrandingimages (2).png' },
+            { type: 'image', url: '/images/sweetsbrandingimages (3).png' },
+            { type: 'image', url: '/images/sweetsbrandingimages (4).png' },
+            { type: 'image', url: '/images/sweetsbrandingimages (5).png' },
+        ]
+    },
+    {
+        id: 11,
+        title: 'Premium Cosmetic Brand Journey',
+        year: '2026',
+        category: 'Social Media Services',
+        description: 'High-end social media content creation and strategy for a luxurious cosmetic line. We designed an elegant visual language to elevate the brand\'s digital presence.',
+        image: '/images/cosmeticbrand (1).png',
+        video: '/images/cosmeticbrand (1).mp4',
+        bgColor: 'bg-[#E5D3C8]',
+        textColor: 'text-dark-900',
+        tags: ['Social Media', 'Content Creation', 'Beauty'],
+        gallery: [
+            { type: 'video', url: '/images/cosmeticbrand (1).mp4' },
+            { type: 'image', url: '/images/cosmeticbrand (1).png' },
+            { type: 'image', url: '/images/cosmeticbrand (1).jpeg' },
+            { type: 'image', url: '/images/cosmeticbrand (1).jpg' },
+            { type: 'image', url: '/images/cosmeticbrand (2).png' },
+            { type: 'image', url: '/images/cosmeticbrand (2).jpeg' },
+        ]
+    },
+    {
+        id: 12,
+        title: 'Intelligent Automated Triage System',
+        year: '2026',
+        category: 'AI Services',
+        description: 'A cutting-edge headless AI backend that revolutionizes customer support by automating email triage with sub-second latency. Utilizing LangChain and OpenAI with strict deterministic prompt engineering, it classifies intent and routes payloads to specialized departments, reducing manual overhead by 85% and response times by 99%.',
+        image: '/images/ai-triage-system1.jpg',
+        bgColor: 'bg-[#0F172A]',
+        textColor: 'text-white',
+        tags: ['n8n', 'OpenAI API', 'Prompt Engineering', 'Webhooks', 'REST APIs'],
+        gallery: [
+            { type: 'image', url: '/images/ai-triage-system1.jpg' },
+            { type: 'image', url: '/images/ai-triage-system2.jpg' },
+        ]
+    }
 ];
