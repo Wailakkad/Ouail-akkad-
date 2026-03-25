@@ -41,12 +41,21 @@ export const projects: Project[] = [
         id: 1,
         title: 'Logistic & Supply Chain Platform',
         year: '2025',
-        category: 'Website Development',
+        category: 'Web Design',
         description: 'A comprehensive logistics management system designed to optimize supply chains. Features real-time tracking, automated fleet routing, and a responsive driver interface for seamless operations.',
         image: '/images/LOGISTIC-WEBSITE-MOBILE-RESPONSIVE-DEV-DESIGN.png',
         bgColor: 'bg-[#0066FF]',
         textColor: 'text-white',
         tags: ['React', 'Node.js', 'Logistics'],
+        gallery: [
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774459353/Reels/127.0.0.1_3000_index.html_iPhone_14_Pro_Max_1.png' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774459354/Reels/127.0.0.1_3000_index.html_5.png' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774459354/Reels/127.0.0.1_3000_index.html_3.png' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774459354/Reels/127.0.0.1_3000_index.html_2.png' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774459359/Reels/127.0.0.1_3000_index.html_iPhone_14_Pro_Max.png' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774459357/Reels/127.0.0.1_3000_index.html_4.png' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774459366/Reels/127.0.0.1_3000_index.html_1.png' }
+        ]
     },
     {
         id: 2,
@@ -173,6 +182,23 @@ export const projects: Project[] = [
         gallery: [
             { type: 'image', url: '/images/ai-triage-system1.jpg' },
             { type: 'image', url: '/images/ai-triage-system2.jpg' },
+        ]
+    },
+    {
+        id: 13,
+        title: 'The Progress Center - Educational Platform',
+        year: '2025',
+        category: 'Website Development',
+        description: 'A modern, bilingual educational platform for a premier tutoring center. Designed with an intuitive course catalog, student authentication portal, and seamless navigation to connect high school students with specialized academic support.',
+        image: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774458998/Reels/MacBook_Air_-_3.jpg',
+        bgColor: 'bg-[#8DA475]',
+        textColor: 'text-white',
+        tags: ['React', 'Tailwind CSS', 'TypeScript', 'Education'],
+        gallery: [
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774458998/Reels/MacBook_Air_-_3.jpg' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774458998/Reels/MacBook_Air_-_2.jpg' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774458998/Reels/iPhone_14_15_Pro_-_4.jpg' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/v1774458998/Reels/iPhone_14_15_Pro_-_5.jpg' }
         ]
     }
 ];
