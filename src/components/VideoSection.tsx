@@ -60,7 +60,7 @@ const VideoSection = () => {
                         className="col-span-12 hidden h-64 overflow-hidden rounded-[2rem] shadow-xl lg:col-span-3 lg:block lg:h-80"
                     >
                         <img
-                            src="/images/bottom-main-image (2).png"
+                            src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1774451844/Reels/bottom-main-image_2.png"
                             alt="Developer Setup"
                             className="h-full w-full object-cover"
                         />

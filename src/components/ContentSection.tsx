@@ -180,7 +180,7 @@ const ContentSection = () => {
                                 </div>
                                 <div className="overflow-hidden rounded-2xl shadow-lg sm:rounded-3xl">
                                     <img
-                                        src="/images/bottom-main-image (2).png"
+                                        src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1774451844/Reels/bottom-main-image_2.png"
                                         alt="Developer portrait"
                                         className="h-full w-full object-cover"
                                     />
