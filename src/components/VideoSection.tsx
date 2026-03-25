@@ -39,7 +39,9 @@ const VideoSection = () => {
                             I transformed my passion into a successful online <span className="font-bold text-dark-900">business</span>—one that allows me to create impact, financial freedom, and a lifestyle I love. Today,
                         </p>
                         <a
-                            href="#"
+                            href="https://www.instagram.com/o_akkad.ai/reels/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 rounded-full bg-[#8B5CF6] px-8 py-3.5 font-medium text-white shadow-lg shadow-purple-500/30 transition-all hover:bg-[#7C3AED] hover:shadow-purple-500/40"
                         >
                             Watch More
@@ -80,7 +82,12 @@ const VideoSection = () => {
                                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                             />
                             {/* Play Button Overlay */}
-                            <div className="absolute inset-0 flex items-center justify-center bg-black/20 transition-colors group-hover:bg-black/10">
+                            <a 
+                                href="https://www.instagram.com/o_akkad.ai/reels/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="absolute inset-0 flex items-center justify-center bg-black/20 transition-colors group-hover:bg-black/10"
+                            >
                                 <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white/20 backdrop-blur-md transition-transform duration-300 group-hover:scale-110">
                                     <div className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-dark-900 shadow-xl">
                                         <svg className="ml-1 h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -88,7 +95,7 @@ const VideoSection = () => {
                                         </svg>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </motion.div>
 
