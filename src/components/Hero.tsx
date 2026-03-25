@@ -6,7 +6,7 @@ const Hero = () => {
             {/* Background Image */}
             <div className="absolute inset-0">
                 <img
-                    src="/images/hero-profile.jpg"
+                    src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1774451840/Reels/hero-profile.png"
                     alt="Full Stack Developer"
                     className="h-full w-full object-cover object-center"
                 />
