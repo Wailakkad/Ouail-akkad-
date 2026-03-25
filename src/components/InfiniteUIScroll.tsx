@@ -2,15 +2,15 @@ import { motion } from 'framer-motion'
 import { useState } from 'react'
 
 const uiImages = [
-    '/images/Frame 4.jpg',
-    '/images/Frame 5.jpg',
-    '/images/Frame 6.jpg',
-    '/images/Frame 7.jpg',
-    '/images/frame.jpg',
-    '/images/WEBSITE-DEIGN.jpg',
-    '/images/SAAS-DESIGN.png',
-    '/images/AI-AGENT-CHAT-CUSTOMER-SUPPORT.png',
-    '/images/LOGISTIC-WEBSITE-MOBILE-RESPONSIVE-DEV-DESIGN.png'
+    'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774453101/Reels/Frame_4.jpg',
+    'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774453102/Reels/Frame_5.jpg',
+    'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774453104/Reels/Frame_6.jpg',
+    'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774453105/Reels/Frame_7.jpg',
+    'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774453105/Reels/frame.jpg',
+    'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774453972/Reels/WEBSITE-DEIGN.jpg',
+    'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774453971/Reels/SAAS-DESIGN.png',
+    'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774453017/Reels/AI-AGENT-CHAT-CUSTOMER-SUPPORT.png',
+    'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774453970/Reels/LOGISTIC-WEBSITE-MOBILE-RESPONSIVE-DEV-DESIGN.png'
 ]
 
 const InfiniteUIScroll = () => {
