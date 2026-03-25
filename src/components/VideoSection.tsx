@@ -75,7 +75,7 @@ const VideoSection = () => {
                     >
                         <div className="relative h-full w-full group cursor-pointer">
                             <img
-                                src="/images/sociel-media-tuto.png"
+                                src="https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774451843/Reels/sociel-media-tuto.png"
                                 alt="Main Video Thumbnail"
                                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                             />
@@ -100,7 +100,7 @@ const VideoSection = () => {
                         className="col-span-12 hidden h-64 overflow-hidden rounded-[2rem] shadow-xl lg:col-span-3 lg:block lg:h-80"
                     >
                         <img
-                            src="/images/right-image.png"
+                            src="https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774451842/Reels/right-image.png"
                             alt="Working at desk"
                             className="h-full w-full object-cover"
                         />
