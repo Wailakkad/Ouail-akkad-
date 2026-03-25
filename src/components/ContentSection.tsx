@@ -27,7 +27,7 @@ const ContentSection = () => {
                     >
                         <div className="overflow-hidden rounded-3xl shadow-2xl">
                             <img
-                                src="/images/top-left.png"
+                                src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1774451837/Reels/top-left.png"
                                 alt="Professional workspace"
                                 className="h-auto w-full object-cover"
                             />
@@ -44,7 +44,7 @@ const ContentSection = () => {
                         {/* Small image - Hidden on mobile, visible on lg */}
                         <div className="hidden lg:absolute lg:-top-8 lg:right-0 lg:block lg:w-40 lg:overflow-hidden lg:rounded-3xl lg:shadow-lg">
                             <img
-                                src="/images/right-bottom.png"
+                                src="https://res.cloudinary.com/dhkyla1rv/image/upload/v1774451833/Reels/bottom-main-image_1.png"
                                 alt="Profile"
                                 className="h-auto w-full object-cover"
                             />
