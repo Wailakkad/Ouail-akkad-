@@ -26,17 +26,15 @@ export const projects: Project[] = [
         category: 'Social Media Services',
         description: 'A premium visual identity overhaul for a high-end social media presence. This project combines cinematic motion pieces with sophisticated product curation to establish a dominant brand authority in the digital space.',
         image: '/images/productbrandingimages (1).jpg',
-        video: '/images/productbrandingimages (1).mp4',
+        video: 'https://res.cloudinary.com/dhkyla1rv/video/upload/q_auto,f_auto/v1774452898/Reels/productbrandingimages_1.mp4',
         bgColor: 'bg-[#121212]',
         textColor: 'text-white',
         tags: ['Motion Design', 'Branding', 'Social Strategy'],
         gallery: [
-            { type: 'video', url: '/images/productbrandingimages (1).mp4' },
-            { type: 'image', url: '/images/productbrandingimages (1).jpeg' },
-            { type: 'image', url: '/images/productbrandingimages (1).jpg' },
-            { type: 'image', url: '/images/productbrandingimages (2).jpg' },
-            { type: 'image', url: '/images/productbrandingimages (3).jpg' },
-            { type: 'image', url: '/images/productbrandingimages (4).jpg' },
+            { type: 'video', url: 'https://res.cloudinary.com/dhkyla1rv/video/upload/q_auto,f_auto/v1774452898/Reels/productbrandingimages_1.mp4' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774452870/Reels/productbrandingimages_2.jpg' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774452871/Reels/productbrandingimages_3.jpg' },
+            { type: 'image', url: 'https://res.cloudinary.com/dhkyla1rv/image/upload/f_auto,q_auto/v1774452870/Reels/productbrandingimages_4.jpg' },
         ]
     },
     {
